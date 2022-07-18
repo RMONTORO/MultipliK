@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainMenu"
+    android:background="@color/secondaryLightColor">
+
+    <ImageView
+        android:id="@+id/flashcard_img"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/flashcards_img"
+        android:layout_above="@id/play_btn" />
+
+    <TextView
+        android:id="@+id/falshcard_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/flashcard_img"
+        android:layout_alignBottom="@id/flashcard_img"
+        android:layout_alignEnd="@id/flashcard_img"
+        android:layout_alignStart="@id/flashcard_img"
+        android:gravity="center"
+        android:rotation="-12"
+        android:textSize="50sp"
+        />
+
+    <Button
+        android:id="@+id/play_btn"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:text="@string/play"
+        android:textSize="50sp"
+        android:layout_centerInParent="true"
+        android:rotation="-5"
+        />
+
+    <Button
+        android:id="@+id/learn_btn"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:text="@string/learn"
+        android:textSize="20sp"
+        android:layout_below="@id/play_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:rotation="-2"
+        />
+
+    <ImageButton
+        android:background="@color/transparent"
+        android:id="@+id/settings_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_settings"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp" />
+
+
+
+</RelativeLayout>

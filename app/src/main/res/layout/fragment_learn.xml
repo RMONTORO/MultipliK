@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LearnFragment"
+    android:background="@color/secondaryLightColor">
+<Button
+    android:id="@+id/tables_btn"
+    android:layout_width="200dp"
+    android:layout_height="100dp"
+    android:text="@string/tables"
+    android:layout_centerInParent="true"
+    android:rotation="5"
+    />
+
+    <Button
+        android:id="@+id/memory_cards_btn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="@string/memory_cards"
+        android:layout_above="@id/tables_btn"
+        android:layout_centerHorizontal="true"
+        android:rotation="-5"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/rush_btn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="@string/rush"
+        android:layout_below="@id/tables_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="play">JUGAR</string>
+    <string name="learn">APRENDER</string>
+
+    <string name="tables">Tablas de Multiplicar</string>
+    <string name="memory_cards">Memorama</string>
+
+    <string name="select_table">Selecciona una tabla de multiplicar</string>
+    <string name="memorize_table_of">Memoriza: Tabla del </string>
+</resources>
